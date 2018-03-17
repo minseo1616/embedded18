@@ -25,6 +25,6 @@ uname –ra / uname –a → armv7을 통해 bit architecture를 알 수 있다.
 
 Practice 5. Store System Information
 cat /etc/passwd | awk –F: ‘{print $1}’ | sort > system_info.txt
-→ system_info.tx 사용자 리스트를 저장한다.
+→ system_info.txt에 사용자 리스트를 저장한다.
 cat /proc/cpuinfo | grep processor > cpu_info.txt → cpu_info.txt에 cpuinfo를 저장한다.
 cat cpu_info.txt >> system_info.txt → system_info.txt 뒤에 cpu_info.txt 파일의 내용을 붙인다.
