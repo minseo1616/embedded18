@@ -17,7 +17,7 @@ adduser 아이디 → 계정 생성
 passwd 아이디 → 계정 비밀번호 변경
 
 Practice 4. Check System Information
-cat /ect/passwd → 사용자 리스트 보기
+cat /etc/passwd → 사용자 리스트 보기
 cat /etc/passwd | awk –F: ‘{print $1}’ | sort → :를 기준으로 첫 번째 열을 정렬된 형태로 보여준다.
 cat /proc/cpuinfo | grep processor → processor 단어가 들어간 text를 뽑아내 보여준다. Core 수를 알 수 있다.
 cat /proc/memifo → 메모리 정보를 보여준다. Memory Size(MemTotal)를 알려준다.
