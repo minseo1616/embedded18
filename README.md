@@ -1,5 +1,3 @@
-hw2:  Mini-project - build an IoT system using LED, Button, Soundboard, ServoMotor, Ultra Sensor with Python!
-
 이 프로젝트는 비가 오는 날 창문이 열려있으면 창문을 닫아 내부에 비가 들어오는 것을 막아주기 위한 것입니다.
 
 This project is to prevent rain from falling inside if it's raining and the window is open
