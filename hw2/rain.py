@@ -32,7 +32,6 @@ try:
                 # Close the window using motor
                 motor.ChangeDutyCycle(12.5)
                 time.sleep(1)
-                motor.ChangeDutyCycle(7.5)
 
         # If Raindrops Sensor is not detected
         else:
@@ -44,6 +43,5 @@ try:
                 # Open the window using motor
                 motor.ChangeDutyCycle(2.5)
                 time.sleep(1)
-                motor.ChangeDutyCycle(7.5)
 except KeyboardInterrupt:
     GPIO.cleanup()
