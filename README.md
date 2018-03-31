@@ -3,9 +3,11 @@
 This project is to prevent rain from falling inside if it's raining and the window is open.
 
 
+
 빗물 감지 센서를 이용해 비가 오는지 감지합니다.
 
 It detects the rain using Raindrops sensor.
+
 
 
 빗물 감지 센서의 output 값이 0이면 비가 오는 것이고 1이면 비가 오지 않는 것입니다.
@@ -13,6 +15,7 @@ It detects the rain using Raindrops sensor.
 If Raindrops sensor's Output is 0, It's raining.
 
 If Raindrops sensor's Output is 1, It isn't raining.
+
 
 
 비를 감지하면서 창문이 열려있으면 모터를 90도 회전시켜 창문을 닫아줍니다.
